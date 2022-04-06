@@ -1,0 +1,437 @@
+/*Will be removed*/
+
+/*.partners_users_main_block {
+    outline: 5px red solid;
+
+    .partners_users_internal_block {
+        outline: 3px skyblue solid;
+
+        .partners_main_block {
+            outline: 10px green solid;
+
+            .partners {
+                outline: 1px red solid;
+
+                .partners_title {
+                    outline: 1px black solid;
+                }
+
+                &_list {
+                    outline: 1px blue solid;
+
+
+                    .icon {
+                        outline: 1px red solid;
+                    }
+
+                    .text {
+                        outline: 1px green solid;
+                    }
+
+                }
+            }
+        }
+
+        .users_main_block {
+            outline: 10px blue solid;
+
+            .users {
+                outline: 1px blue solid;
+
+                .users_title {
+                    outline: 1px black solid;
+                }
+
+                .users_list {
+                    outline: 1px red solid;
+
+                    .icon {
+                        outline: 1px red solid;
+                    }
+
+                    .text {
+                        outline: 1px green solid;
+                    }
+                }
+            }
+        }
+    }
+}*/
+
+
+
+/*Global properties of block Partners and Users*/
+
+.partners_users_main_block {
+    height: 613px;
+
+    .partners_users_internal_block {
+        height: 613px;
+        margin: 0;
+
+
+        /*Partners list*/
+
+        .partners_main_block {
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+            background: $color8;
+            position: relative;
+
+            .partners {
+                width: 420px;
+                height: 416.12px;
+
+                position: absolute;
+                top: 50%;
+                left: 51.7%;
+                transform: translate(-50%, -50%);
+
+                &_title {
+                    width: 380px;
+                    height: 100px;
+                    margin-bottom: 45px;
+
+                    font: 40px Roboto-Bold;
+                    line-height: 50px;
+                    letter-spacing: 0.005em;
+                    color: $color1;
+                }
+
+                &_list {
+                    margin-bottom: 32px;
+                    display: flex;
+
+
+                    .icon {
+                        background: no-repeat center;
+                        width: 43px;
+                        height: 43px;
+                        margin-right: 28px;
+                    }
+
+                    .text {
+                        margin-top: 9px;
+                        height: 26px;
+                        font: 18px Roboto-Regular;
+                        line-height: 26px;
+                        letter-spacing: 0.0003em;
+                        color: $color4;
+                    }
+                }
+            }
+        }
+
+        /*Users list*/
+
+        .users_main_block {
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+            background: $color9;
+            position: relative;
+
+            .users {
+                width: 410px;
+                height: 416.12px;
+
+                position: absolute;
+                top: 50%;
+                left: 46%;
+                transform: translate(-50%, -50%);
+
+                &_title {
+                    width: 380px;
+                    height: 100px;
+                    margin-bottom: 45px;
+
+                    font: 40px Roboto-Bold;
+                    line-height: 50px;
+                    letter-spacing: 0.005em;
+                    color: $color1;
+                }
+
+                &_list {
+                    margin-bottom: 32px;
+                    display: flex;
+
+                    .icon {
+                        background: no-repeat center;
+                        width: 43px;
+                        height: 43px;
+                        margin-right: 28px;
+                    }
+
+                    .text {
+                        margin-top: 9px;
+                        height: 26px;
+                        font: 18px Roboto-Regular;
+                        line-height: 26px;
+                        letter-spacing: 0.0003em;
+                        color: $color4;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Responsive Section*/
+
+@media screen and(min-width: 992px) and(max-width: 1199px) {
+
+    /*Global properties of block Partners and Users*/
+
+    .partners_users_main_block {
+
+        .partners_users_internal_block {
+
+            /*Partners list*/
+
+            .partners_main_block {
+
+                .partners {
+                    left: 50%;
+
+                    &_title {
+                        text-align: center;
+                    }
+                }
+            }
+
+            /*Users list*/
+
+            .users_main_block {
+
+                .users {
+                    left: 47%;
+
+                    &_title {
+                        text-align: center;
+                    }
+
+                    &_list {
+
+                        .icon {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) and(max-width: 991px) {
+
+    /*Global properties of block Partners and Users*/
+
+    .partners_users_main_block {
+
+        .partners_users_internal_block {
+
+            /*Partners list*/
+
+            .partners_main_block {
+
+                .partners {
+                    width: 90%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        font-size: 38px;
+                    }
+
+                    &_list {
+                        .icon {
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            height: auto;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            /*Users list*/
+
+            .users_main_block {
+
+                .users {
+                    width: 90%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        font-size: 38px;
+                    }
+
+                    &_list {
+
+                        .icon {
+                            margin-left: 20px;
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            font-size: 15px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 576px) and(max-width: 767px) {
+
+    /*Global properties of block Partners and Users*/
+
+    .partners_users_main_block {
+        height: 1000px;
+
+        .partners_users_internal_block {
+            height: 1000px;
+            /*Partners list*/
+
+            .partners_main_block {
+
+                .partners {
+                    width: 63%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 30px;
+                        font-size: 38px;
+                        text-align: center;
+                    }
+
+                    &_list {
+
+                        .icon {
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            height: auto;
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            /*Users list*/
+
+            .users_main_block {
+
+                .users {
+                    width: 63%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        font-size: 38px;
+                    }
+
+                    &_list {
+
+                        .icon {
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            font-size: 16px;
+                            height: auto;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 575px){
+
+    /*Global properties of block Partners and Users*/
+
+    .partners_users_main_block {
+        height: 1100px;
+
+        .partners_users_internal_block {
+            height: 1100px;
+            /*Partners list*/
+
+            .partners_main_block {
+
+                .partners {
+                    width: 95%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 30px;
+                        font-size: 39px;
+                    }
+
+                    &_list {
+                        .icon {
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            height: auto;
+                            font-size: 17px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            /*Users list*/
+
+            .users_main_block {
+
+                .users {
+                    width: 95%;
+                    height: auto;
+                    left: 50%;
+
+                    &_title {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 30px;
+                        font-size: 38px;
+                    }
+
+                    &_list {
+
+                        .icon {
+                            margin-right: 15px;
+                        }
+
+                        .text {
+                            font-size: 17px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

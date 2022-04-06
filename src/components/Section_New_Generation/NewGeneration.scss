@@ -1,0 +1,408 @@
+/*Will be removed*/
+
+/*.new_generation_main_block {
+    outline: 5px red solid;
+
+    .new_generation_internal_block {
+        outline: 4px skyblue solid;
+
+        .electronic_signature_main_block {
+            outline: 1px green solid;
+
+            .electron_signature_info_block {
+                outline: 2px blue solid;
+
+                .signature_title {
+                    outline: 5px red solid;
+                }
+
+                .signature_text {
+                    outline: 1px green solid;
+                }
+
+                .signature_buttons {
+                    outline: 1px skyblue solid;
+                }
+            }
+
+            .slide_btns_block {
+                outline: 1px solid red;
+
+                .slide_btn {
+                    outline: 1px blue solid;
+                }
+            }
+        }
+
+        .new_generation_image_block {
+            outline: 2px blue solid;
+
+            .generation_image {
+                outline: 2px green solid;
+            }
+        }
+    }
+}*/
+
+
+/*Global properties of new generation block*/
+
+.new_generation_main_block {
+    max-width: 1600px;
+    height: 742px;
+    margin-bottom: 10px;
+
+    .new_generation_internal_block {
+
+        .electronic_signature_main_block {
+            padding: 0;
+            position: relative;
+            background-color: $color7;
+
+            /* Electron signature info - title, text, button*/
+
+            .electron_signature_info_block {
+                width: 568px;
+                height: 345px;
+
+                position: absolute;
+                top: 173px;
+                left: 216px;
+
+                .signature_title {
+                    width: 90%;
+                    height: 152px;
+
+                    font: 64px Roboto-Bold;
+                    color: $color1;
+                    line-height: 76px;
+                    letter-spacing: 0.006em;
+                }
+
+                .signature_text {
+                    margin-top: 32px;
+                    width: 103%;
+                    height: 72px;
+
+                    font: 15px Roboto-Regular;
+                    color: $color4;
+                    line-height: 24px;
+                    letter-spacing: 0.003em;
+                }
+
+                /*Signature buttons*/
+
+                .signature_buttons {
+                    margin-top: 40px;
+                    width: 298px;
+                    height: 48px;
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    .app_store_btn,
+                    .play_market_btn {
+                        background-color: $color6;
+                        box-shadow: 0px 4px 18px rgba(0, 176, 78, 0.28);
+                        transition: 0.4s;
+
+                        &:hover {
+                            background-color: $color1;
+                        }
+                    }
+                }
+            }
+
+            /*Slide buttons*/
+
+            .slide_btns_block {
+                width: 100px;
+                min-height: 56px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                position: absolute;
+                bottom: 0;
+                left: 120%;
+                transform: translate(-50%, 0%);
+
+                .slide_btn {
+                    width: 18px;
+                    height: 4px;
+                    border-radius: 9px;
+                    cursor: pointer;
+                    background: rgba(71, 73, 117, 0.3);
+                }
+
+                #active_btn {
+                    background-color: $color1;
+                }
+            }
+        }
+
+        /*New generation image*/
+
+        .new_generation_image_block {
+            padding: 0;
+            background-color: $color7;
+
+            .generation_image {
+                width: 100%;
+                height: 742px;
+                background: url('@/assets/images/GenerationImg.png') no-repeat;
+            }
+        }
+    }
+}
+
+
+/*Responsive Section*/
+
+@media screen and(min-width: 1200px) and(max-width: 1500px) {
+
+    /*Global properties of new generation block*/
+
+    .new_generation_main_block {
+
+        .new_generation_internal_block {
+
+            .electronic_signature_main_block {
+
+                /* Electron signature info - title, text, button*/
+
+                .electron_signature_info_block {
+                    left: 16.5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 992px) and(max-width: 1199px) {
+
+    /*Global properties of new generation block*/
+
+    .new_generation_main_block {
+
+        .new_generation_internal_block {
+
+            .electronic_signature_main_block {
+
+                /* Electron signature info - title, text, button*/
+
+                .electron_signature_info_block {
+                    left: 9%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) and(max-width: 991px) {
+
+    /*Global properties of new generation block*/
+
+    .new_generation_main_block {
+
+        .new_generation_internal_block {
+
+            .electronic_signature_main_block {
+
+                /* Electron signature info - title, text, button*/
+
+                .electron_signature_info_block {
+                    height: auto;
+                    left: 9%;
+
+                    .signature_title {
+                        width: 65%;
+                        font-size: 55px;
+                    }
+
+                    .signature_text {
+                        width: 72%;
+                        height: auto;
+                        font-size: 14px;
+                    }
+
+                    .signature_buttons {
+
+                        .app_store_btn,
+                        .play_market_btn {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                /*Slide buttons*/
+
+                .slide_btns_block {
+                    width: 85px;
+
+                    .slide_btn {
+                        width: 14px;
+                        height: 2px;
+                    }
+
+                    left: 150%
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 576px) and(max-width: 767px) {
+
+    /*Global properties of new generation block*/
+
+    .new_generation_main_block {
+        height: 1000px;
+        .new_generation_internal_block {
+            height: 1000px;
+
+            .electronic_signature_main_block {
+                height: 45%;
+
+                /* Electron signature info - title, text, button*/
+
+                .electron_signature_info_block {
+                    height: auto;
+                    top: 15%;
+                    left: 50%;
+
+                    transform: translate(-50%, 0%);
+
+                    .signature_title {
+                        margin: 0 auto;
+                        width: 70%;
+                        font-size: 55px;
+                        text-align: center;
+                    }
+
+                    .signature_text {
+                        margin: 0 auto;
+                        margin-top: 32px;
+                        text-align: center;
+                        width: 72%;
+                        height: auto;
+                        font-size: 14px;
+                    }
+
+                    .signature_buttons {
+                        margin: 0 auto;
+                        margin-top: 40px;
+
+                        .app_store_btn,
+                        .play_market_btn {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                /*Slide buttons*/
+
+                .slide_btns_block {
+                    width: 85px;
+
+                    .slide_btn {
+                        width: 14px;
+                        height: 2px;
+                    }
+
+                    bottom: -123%;
+                    left: 50%
+                }
+            }
+
+            .new_generation_image_block {
+                height: 55%;
+
+                .generation_image {
+                    height: 100%;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 575px) {
+
+    /*Global properties of new generation block*/
+
+    .new_generation_main_block {
+        height: 1200px;
+        .new_generation_internal_block {
+            height: 1200px;
+            background-color: $color7;
+
+            .electronic_signature_main_block {
+                height: 32%;
+
+                /* Electron signature info - title, text, button*/
+
+                .electron_signature_info_block {
+                    width: 100%;
+                    height: auto;
+                    top: 15%;
+                    left: 50%;
+
+                    transform: translate(-50%, 0%);
+
+                    .signature_title {
+                        width: 100%;
+                        height: auto;
+                        font-size: 45px;
+                        text-align: center;
+                    }
+
+                    .signature_text {
+                        margin: 0 auto;
+                        margin-top: 32px;
+                        text-align: center;
+                        width: 98%;
+                        height: auto;
+                        font-size: 13px;
+                    }
+
+                    .signature_buttons {
+                        margin: 0 auto;
+                        margin-top: 40px;
+
+                        .app_store_btn,
+                        .play_market_btn {
+                            width: 132px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                /*Slide buttons*/
+
+                .slide_btns_block {
+                     width: 85px;
+
+                    .slide_btn {
+                        width: 14px;
+                        height: 2px;
+                    }
+
+                    bottom: -212%;
+                    left: 50%
+                }
+            }
+
+            .new_generation_image_block {
+                height: 68%;
+
+                .generation_image {
+                    height: 100%;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}

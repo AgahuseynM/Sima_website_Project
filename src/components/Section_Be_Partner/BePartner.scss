@@ -1,0 +1,364 @@
+/*Will be removed*/
+
+/*.be_partner_main_block {
+    outline: 5px red solid;
+
+    .be_partner_internal_block {
+        outline: 3px skyblue solid;
+
+        .title_text_list {
+            outline: 10px green solid;
+
+            .be_partner {
+                outline: 1px red solid;
+
+                &_title {
+                    outline: 1px red solid;
+                }
+
+                &_text {
+                    outline: 1px blue solid;
+                }
+
+                &_list {
+                    outline: 5px green solid;
+
+                    &_item {
+
+                        .icon {
+                            outline: 2px red solid
+                        }
+
+                        .titles {
+                            outline: 2px blue solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}*/
+
+/*Global properties of block Be A Partner*/
+
+.be_partner_main_block {
+    height: 491px;
+    margin-bottom: 30px;
+
+    .be_partner_internal_block {
+        height: 491px;
+
+        .title_text_list {
+            position: relative;
+
+            .be_partner {
+                width: 1168px;
+                height: 340px;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                &_title {
+                    width: 832px;
+                    margin: 0 auto;
+                    margin-bottom: 32px;
+
+                    font: 28px Roboto-Bold;
+                    line-height: 36px;
+                    text-align: center;
+                    letter-spacing: 0.0004em;
+                    color: $color1;
+                }
+
+                &_text {
+                    width: 532px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+
+                    font: 15px Roboto-Regular;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.0003em;
+                    color: $color4;
+
+                    span {
+                        font-weight: bold;
+                        color: $color1;
+                    }
+                }
+
+                /*Partner icon and title list*/
+
+                &_list {
+                    height: auto;
+                    display: flex;
+                    justify-content: space-between;
+
+                    &_item {
+
+                        .icon {
+                            width: 268px;
+                            height: 140px;
+                            margin-bottom: 12px;
+                            background: no-repeat center;
+                        }
+
+                        .titles {
+                            font: 18px Roboto-Regular;
+                            line-height: 26px;
+                            text-align: center;
+                            letter-spacing: 0.0003em;
+                            color: $color4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Responsive Section*/
+
+@media screen and(min-width: 992px) and(max-width: 1199px) {
+
+    /*Global properties of block Be A Partner*/
+
+    .be_partner_main_block {
+        height: 491px;
+        margin-bottom: 30px;
+
+        .be_partner_internal_block {
+            height: 491px;
+
+            .title_text_list {
+
+                .be_partner {
+                    width: 90%;
+                    height: 400px;
+
+                    &_title {
+                        width: 70%;
+                        margin: 0 auto;
+                        margin-bottom: 32px;
+                    }
+
+                    &_text {
+                        width: 50%;
+                        margin: 0 auto;
+                        margin-bottom: 50px;
+                    }
+
+                    /*Partner icon and title list*/
+
+                    &_list {
+
+                        &_item {
+
+                            .icon {
+                                width: 200px;
+                                height: 140px;
+                                margin-bottom: 12px;
+                            }
+
+                            .titles {
+                                width: 200px;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) and(max-width: 991px) {
+
+    /*Global properties of block Be A Partner*/
+
+    .be_partner_main_block {
+        height: 491px;
+        margin-bottom: 30px;
+
+        .be_partner_internal_block {
+            height: 491px;
+
+            .title_text_list {
+
+                .be_partner {
+                    width: 90%;
+                    height: 450px;
+                    position: relative;
+
+                    &_title {
+                        width: 70%;
+                        margin: 0 auto;
+                        margin-bottom: 32px;
+                    }
+
+                    &_text {
+                        width: 50%;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+
+                    /*Partner icon and title list*/
+
+                    &_list {
+                        width: 95%;
+                        position: absolute;
+                        top: 65%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        &_item {
+
+                            .icon {
+                                width: 100%;
+                                height: 140px;
+                                margin-bottom: 12px;
+                            }
+
+                            .titles {
+                                width: 150px;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 576px) and(max-width: 767px) {
+
+    /*Global properties of block Be A Partner*/
+
+    .be_partner_main_block {
+        height: 880px;
+        margin-bottom: 30px;
+
+        .be_partner_internal_block {
+            height: 880px;
+
+            .title_text_list {
+
+                .be_partner {
+                    width: 90%;
+                    height: 850px;
+                    position: relative;
+
+                    &_title {
+                        width: 70%;
+                        margin: 0 auto;
+                        margin-bottom: 17px;
+                    }
+
+                    &_text {
+                        width: 80%;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+
+                    /*Partner icon and title list*/
+
+                    &_list {
+                        width: 95%;
+                        height: 640px;
+                        flex-direction: column;
+
+                        position: absolute;
+                        top: 61%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        &_item {
+
+                            .icon {
+                                width: 40%;
+                                height: 100px;
+                                margin: 0 auto;
+                                margin-bottom: 12px;
+                            }
+
+                            .titles {
+                                width: 40%;
+                                height: auto;
+                                margin: 0 auto;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 575px) {
+
+    /*Global properties of block Be A Partner*/
+
+    .be_partner_main_block {
+        height: 980px;
+        margin-bottom: 30px;
+
+        .be_partner_internal_block {
+            height: 980px;
+
+            .title_text_list {
+
+                .be_partner {
+                    width: 90%;
+                    height: 920px;
+                    position: relative;
+
+                    &_title {
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-bottom: 32px;
+                    }
+
+                    &_text {
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+
+                    /*Partner icon and title list*/
+
+                    &_list {
+                        width: 95%;
+                        height: 670px;
+                        flex-direction: column;
+
+                        position: absolute;
+                        top: 62%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        &_item {
+
+                            .icon {
+                                width: 40%;
+                                height: 100px;
+                                margin: 0 auto;
+                                margin-bottom: 12px;
+                            }
+
+                            .titles {
+                                width: 50%;
+                                height: auto;
+                                margin: 0 auto;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
