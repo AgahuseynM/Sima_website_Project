@@ -15,9 +15,7 @@
 
 				<!-- Menu List & Menu for PC -->
 				<ul class="main_menu_list" >
-					<li class="list_item">
-						<a href="#" class="list_item_option option_download">Yüklə</a>
-						</li>
+					
 					<li class="list_item" v-for="element in mainMenu" :key="element.option_id">
 						<a class="list_item_option" href="#">{{element.menu_option}}</a>
 					</li>
@@ -39,7 +37,6 @@
                         </transition>
                         <transition name="fade">
                             <ul class="mobile_menu_list" v-if="mobileMenuVisibility">
-                            	<li class="mobile_menu_option">Yüklə</li>
                                 <li class="mobile_menu_option" v-for="element in mainMenu" :key="element.option_id">{{ element.menu_option }}</li>
                             </ul>
                         </transition>

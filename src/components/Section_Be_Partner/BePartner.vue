@@ -3,7 +3,6 @@
     <div class="container-fluid be_partner_main_block">
         <div class="row be_partner_internal_block">
 
-
             <div class="col-xl-12 title_text_list">
 
                 <div class="be_partner">

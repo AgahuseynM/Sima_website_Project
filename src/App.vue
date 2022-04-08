@@ -4,6 +4,7 @@
   <services/>
   <partners-users/>
   <be-partner/>
+  <campaigns-news/>
   
 </template>
 
@@ -13,6 +14,7 @@ import NewGeneration from './components/Section_New_Generation/NewGeneration.vue
 import Services from './components/Section_Services/Services.vue'
 import PartnersUsers from './components/Section_Partners_&_Users/PartnersUsers.vue'
 import BePartner from './components/Section_Be_Partner/BePartner.vue'
+import CampaignsNews from './components/Section_Campaigns_&_News/CampaignsNews.vue'
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
     NewGeneration,
     Services,
     PartnersUsers,
-    BePartner
+    BePartner,
+    CampaignsNews
   }
 }
 </script>

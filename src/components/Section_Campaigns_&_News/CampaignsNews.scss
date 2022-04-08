@@ -1,0 +1,505 @@
+/*Will be removed*/
+
+/*.compaigns_news_main_block {
+    outline: 5px red solid;
+
+    .compaigns_news_internal_block {
+        outline: 3px skyblue solid;
+
+        .compaigns_news {
+            outline: 10px green solid;
+
+            &_cards {
+                outline: 1px red solid;
+
+                &_title {
+                    outline: 1px blue solid;
+                }
+
+                .cards_list {
+                    outline: 1px blue solid;
+
+                    &_item {
+                        outline: 2px red solid;
+
+                        &_img {
+                            outline: 3px blue solid;
+                        }
+
+                        &_title {
+                            outline: 2px green solid;
+                        }
+
+                        &_text {
+                            outline: 2px skyblue solid;
+                        }
+
+                        .moreBtn_tag_block {
+                            outline: 2px blue solid;
+
+                            .moreBtn {
+                                outline: 1px red solid;
+
+                                .mini_arrow {
+                                    outline: 1px red solid;
+                                }
+                            }
+
+                            .tagBtn {
+                                outline: 1px green solid;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .arrows {
+                outline: 1px red solid;
+            }
+        }
+    }
+}*/
+
+/*Global properties of Compaigns and News*/
+
+.compaigns_news_main_block {
+    height: 658px;
+    background: $color8;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+    margin-bottom: 30px;
+
+    .compaigns_news_internal_block {
+        height: 658px;
+
+        .compaigns_news {
+            position: relative;
+
+            /*List of News*/
+
+            &_cards {
+                width: 73%;
+                /*height: 514px;*/
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                &_title {
+                    width: 65%;
+                    height: 32px;
+                    margin: 0 auto;
+                    margin-bottom: 48px;
+
+                    font: 22px Roboto-Regular;
+                    line-height: 32px;
+                    text-align: center;
+                    letter-spacing: 0.0037em;
+                    color: $color1;
+                }
+
+                /*List of Cards*/
+
+                .cards_list {
+                    height: 84.2%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    /*Item of Card*/
+
+                    &_item {
+                        width: 31%;
+                        height: 100%;
+                        position: relative;
+
+                        /*Image of Card*/
+
+                        &_img {
+                            height: 215.92px;
+                            margin-bottom: 40.08px;
+                            background-size: cover;
+                            border-radius: 4px 4px 0px 0px;
+                        }
+
+                        /*Title of Card*/
+
+                        &_title {
+                            width: 90%;
+                            margin: 0 auto;
+                            margin-bottom: 16px;
+
+                            font: 18px Roboto-Bold;
+                            line-height: 26px;
+                            letter-spacing: 0.003em;
+                            color: $color1;
+                        }
+
+                        /*Text of Card*/
+
+                        &_text {
+                            width: 90%;
+                            margin: 0 auto;
+                            margin-bottom: 16px;
+
+                            font: 15px Roboto-Regular;
+                            line-height: 24px;
+                            letter-spacing: 0.003em;
+                            color: $color4;
+                        }
+
+                        .active {
+                            margin-left: 5%;
+                            width: 240px;
+                        }
+
+
+                        /*Button More and Tag*/
+
+                        .moreBtn_tag_block {
+                            width: 90%;
+                            height: 32px;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .moreBtn {
+                                width: 93px;
+                                height: 24px;
+                                margin-top: 4px;
+
+                                border: none;
+                                background: $color3;
+                                font: 15px Roboto-Regular;
+                                line-height: 24px;
+                                letter-spacing: 0.003em;
+                                color: $color6;
+                                display: flex;
+                                transition: 0.4s;
+
+                                &:hover {
+                                    color: $color1;
+                                }
+
+                                .mini_arrow {
+                                    font-size: 23px;
+                                    margin-top: 0.6px;
+                                    margin-left: 6px;
+                                }
+                            }
+
+                            .tagBtn {
+                                width: 112px;
+                                height: 32px;
+
+                                background: $color11;
+                                border: none;
+                                color: $color12;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /*Arrow buttons*/
+
+            .arrows {
+                width: 48px;
+                height: 48px;
+                border-radius: 25px;
+                background: $color5;
+
+                position: relative;
+
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .left_arrow {
+
+                position: absolute;
+                top: 316px;
+                left: 5%;
+                transform: translate(-50%, -50%);
+            }
+
+            .right_arrow {
+
+                position: absolute;
+                top: 316px;
+                right: 2%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+/*Responsive Section*/
+
+@media screen and(min-width: 992px) and (max-width: 1200px) {
+
+    .compaigns_news_main_block {
+
+        .compaigns_news_internal_block {
+
+            .compaigns_news {
+
+                /*List of News*/
+
+                &_cards {
+
+                    /*List of Cards*/
+
+                    .cards_list {
+
+                        /*Item of Card*/
+
+                        &_item {
+
+                            /*Title of Card*/
+
+                            &_title {
+                                text-align: center;
+                            }
+
+                            /*Text of Card*/
+
+                            &_text {
+                                text-align: center;
+                            }
+
+                            .active {
+                                width: 90%;
+                            }
+
+
+                            /*Button More and Tag*/
+
+                            .moreBtn_tag_block {
+
+                                .tagBtn {
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 768px) and (max-width: 991px) {
+
+    .compaigns_news_main_block {
+
+        .compaigns_news_internal_block {
+
+            .compaigns_news {
+
+                /*List of News*/
+
+                &_cards {
+                    width: 95%;
+
+                    /*List of Cards*/
+
+                    .cards_list {
+
+                        /*Item of Card*/
+
+                        &_item {
+
+                            /*Title of Card*/
+
+                            &_title {
+                                text-align: center;
+                            }
+
+                            /*Text of Card*/
+
+                            &_text {
+                                text-align: center;
+                            }
+
+                            .active {
+                                width: 90%;
+                            }
+
+
+                            /*Button More and Tag*/
+
+                            .moreBtn_tag_block {
+
+                                .tagBtn {
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .arrows {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 576px) and (max-width: 767px) {
+
+    .compaigns_news_main_block {
+        height: 1550px;
+
+        .compaigns_news_internal_block {
+            height: 1550px;
+
+            .compaigns_news {
+                position: relative;
+
+                /*List of News*/
+
+                &_cards {
+                    width: 95%;
+                    height: auto;
+
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    /*List of Cards*/
+
+                    .cards_list {
+                        width: 55%;
+                        margin: 0 auto;
+                        flex-direction: column;
+
+                        /*Item of Card*/
+
+                        &_item {
+                            width: 100%;
+                            height: 100%;
+                            margin-bottom: 35px;
+                            position: relative;
+
+                            /*Title of Card*/
+
+                            &_title {
+                                text-align: center;
+                            }
+
+                            /*Text of Card*/
+
+                            &_text {
+                                text-align: center;
+                            }
+
+                            .active {
+                                width: 90%;
+                            }
+
+
+                            /*Button More and Tag*/
+
+                            .moreBtn_tag_block {
+
+                                .tagBtn {
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .arrows {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 575px) {
+
+    .compaigns_news_main_block {
+        height: 1580px;
+
+        .compaigns_news_internal_block {
+            height: 1580px;
+
+            .compaigns_news {
+
+                /*List of News*/
+
+                &_cards {
+                    width: 95%;
+                    height: auto;
+
+                    &_title {
+                        height: auto;
+                    }
+
+                    /*List of Cards*/
+
+                    .cards_list {
+                        width: 85%;
+                        height: 84.2%;
+                        margin: 0 auto;
+                        flex-direction: column;
+
+                        /*Item of Card*/
+
+                        &_item {
+                            width: 100%;
+                            height: 100%;
+                            margin-bottom: 35px;
+
+                            /*Image of Card*/
+
+                            &_img {
+                                margin-bottom: 25px;
+                            }
+
+                            /*Title of Card*/
+
+                            &_title {
+                                margin: 0 auto;
+                                margin-bottom: 16px;
+                                text-align: center;
+                            }
+
+                            /*Text of Card*/
+
+                            &_text {
+                                margin-bottom: 16px;
+                                text-align: center;
+                            }
+
+                            .active {
+                                width: 90%;
+                            }
+
+                            /*Button More and Tag*/
+
+                            .moreBtn_tag_block {
+
+                                .tagBtn {
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .arrows {
+                    display: none;
+                }
+            }
+        }
+    }
+}
