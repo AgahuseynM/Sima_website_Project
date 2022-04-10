@@ -1,0 +1,131 @@
+/*Will be removed*/
+
+/*.sign_everywhere_main_block {
+    outline: 5px red solid;
+
+    .sign_everywhere_internal_block {
+        outline: 3px skyblue solid;
+
+        .sign_block {
+            outline: 7px green solid;
+
+            .sign_everywhere {
+                outline: 1px red solid;
+
+                .play_video_btn {
+                    outline: 1px yellow solid;
+                }
+
+                &_title {
+                    outline: 1px red solid;
+                }
+
+                &_text {
+                    outline: 1px black solid;
+                }
+            }
+        }
+    }
+}*/
+
+/*Global properties of Section Sign Everywhere*/
+
+.sign_everywhere_main_block {
+    height: 480px;
+    background-image: url('@/assets/images/SignEverywhere.png');
+    background-size: cover;
+    background-position: center;
+
+    .sign_everywhere_internal_block {
+        height: 480px;
+        background: rgba(29, 32, 79, 0.5);
+
+        .sign_block {
+            position: relative;
+
+            /*Content block*/
+
+            .sign_everywhere {
+                width: 720px;
+                height: 230px;
+                color: $color5;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                /*Play video button*/
+
+                .play_video_btn {
+                    width: 58px;
+                    height: 58px;
+                    margin: 0 auto;
+                    margin-bottom: 32px;
+
+                    background: url('@/assets/images/PlayVideoBtn.png');
+                    cursor: pointer;
+                }
+
+                &_title {
+                    margin-bottom: 32px;
+                    font: 28px Roboto-Bold;
+                    line-height: 36px;
+                    text-align: center;
+                    letter-spacing: 0.004em;
+                }
+
+                &_text {
+                    font: 15px Roboto-Thin;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.003em;
+                }
+            }
+        }
+    }
+}
+
+/*Responsive Section*/
+
+
+@media screen and(min-width: 576px) and (max-width: 767px) {
+
+    .sign_everywhere_main_block {
+        height: 480px;
+
+        .sign_everywhere_internal_block {
+            height: 480px;
+
+            .sign_block {
+
+                /*Content block*/
+
+                .sign_everywhere {
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 575px) {
+
+    .sign_everywhere_main_block {
+        height: 480px;
+
+        .sign_everywhere_internal_block {
+            height: 480px;
+
+            .sign_block {
+
+                /*Content block*/
+
+                .sign_everywhere {
+                    width: 95%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

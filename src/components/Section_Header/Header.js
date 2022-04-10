@@ -1,9 +1,6 @@
 export default {
     data: () => ({
 
-        /*SIMA Logo image*/
-        simaLogo: require('@/assets/images/SIMA_logo.png'),
-
         /*Magnifying Glass image*/
         magnifyingGlass: require('@/assets/images/magnifying-glass.png'),
 

@@ -5,9 +5,7 @@
 
 			<!-- SIMA Logo -->
 			<div class=" col-sm-6 col-md-6 col-lg-6 col-xl-6 SIMA_logo">
-				<a class="SIMA_logo_link" href="http://localhost:8080/">
-					<img class="SIMA_logo_link_img" :src="simaLogo">
-				</a>
+				<sima-logo class="SIMA_logo"></sima-logo>
 			</div>
 
 			<!-- Main Menu -->
