@@ -1,0 +1,161 @@
+{
+  "mainMenu": [
+    {
+      "option_id": 1,
+      "menu_option": "Yüklə"
+    },
+    {
+      "option_id": 2,
+      "menu_option": "Xidmətlər"
+    },
+    {
+      "option_id": 3,
+      "menu_option": "Tərəfdaşlar"
+    },
+    {
+      "option_id": 4,
+      "menu_option": "Kampaniya və xəbərlər"
+    },
+    {
+      "option_id": 5,
+      "menu_option": "FAQ"
+    }
+  ],
+
+  "serviceListArr": [
+    {
+      "item_id": 1,
+      "text": "Bank xidmətləri",
+      "service_icon": "https://i.ibb.co/0CK3Znk/img1.png"
+    },
+    {
+      "item_id": 2,
+      "text": "BOKT xidmətləri",
+      "service_icon": "https://i.ibb.co/qF0p110/img2.png"
+    },
+    {
+      "item_id": 3,
+      "text": "Sığorta xidmətləri",
+      "service_icon": "https://i.ibb.co/30Hgg46/img3.png"
+    },
+    {
+      "item_id": 4,
+      "text": "Dövlət elektron xidmətləri",
+      "service_icon": "https://i.ibb.co/tBk7LRZ/img4.png"
+    },
+    {
+      "item_id": 5,
+      "text": "Elektron ticarət",
+      "service_icon": "https://i.ibb.co/Nm8Ncds/img5.png"
+    },
+    { "item_id": 6,
+      "text": "Digər elektron xidmətlər",
+      "service_icon": "https://i.ibb.co/1mrQQx2/img6.png"
+    }
+  ],
+
+  "partnersListArr": [
+    {
+      "item_id": 1,
+      "text": "Məkan və zamandan asılı olmadan xidmət",
+      "icon": "https://i.ibb.co/bv3Zcbs/img1.png"
+    },
+    {
+      "item_id": 2,
+      "text": "Vaxta və sənəd itkisinin aradan qaldırılması",
+      "icon": "https://i.ibb.co/58D3cZX/img2.png"
+    },
+    {
+      "item_id": 3,
+      "text": "Xərclərin azaldılması",
+      "icon": "https://i.ibb.co/23wgy4c/img3.png"
+    },
+    {
+      "item_id": 4,
+      "text": "Arxiv işlərinin minimallaşdırılması",
+      "icon": "https://i.ibb.co/86yWy6C/img4.png"
+    }
+  ],
+
+  "userListArr": [
+    {
+      "item_id": 1,
+      "text": "Rahatlıq və təhlükəsizlik",
+      "icon": "https://i.ibb.co/p2X7gNm/img1.png"
+    },
+    {
+      "item_id": 2,
+      "text": "Tamamilə ödənişsiz istifadə",
+      "icon": "https://i.ibb.co/h98p09K/img2.png"
+    },
+    {
+      "item_id": 3,
+      "text": "Mobil tətbiqdə sürətli qeydiyyat",
+      "icon": "https://i.ibb.co/sHWyJmr/img3.png"
+    },
+    {
+      "item_id": 4,
+      "text": "Elektron sənədlərin anında imzalanması",
+      "icon": "https://i.ibb.co/XDqF7zN/img4.png"
+    }
+  ],
+
+  "partnerListArr": [
+    {
+      "item_id": 1,
+      "title": "Banklar",
+      "img": "https://i.ibb.co/XYtCnvz/img1.png"
+    },
+    {
+      "item_id": 2,
+      "title": "BOKT",
+      "img": "https://i.ibb.co/jDR5V2B/img2.png"
+    },
+    {
+      "item_id": 3,
+      "title": "Sığorta şirkətləri",
+      "img": "https://i.ibb.co/SKyzfWs/img3.png"
+    },
+    {
+      "item_id": 4,
+      "title": "Elektron xidmət provayderləri",
+      "img": "https://i.ibb.co/1qNxRWd/img4.png"
+    }
+  ],
+
+  "cardListArr": [
+    {
+      "item_id": 1,
+      "title": "Yeni istifadəçi, yeni imkanlar",
+      "text": "Kompaniyamıza qoşulan hər yeni istifadəçi üçün ilk 10 tranzaksiya bizdən hədiyyə.",
+      "cardImg": "https://i.ibb.co/jDs8y3C/img1.png"
+    },
+    {
+      "item_id": 2,
+      "title": "SİMA tətbiqi banklara təqdim olundu.",
+      "text": "Azərbaycan Banklar Assosasiyası ilə birgə təşkil olunan təqdimat görüşündə ölkənin 20-ə yaxın aparıcı bankının təmsilçiləri iştirak edib.",
+      "cardImg": "https://i.ibb.co/NKP22Vr/img2.png"
+    },
+    {
+      "item_id": 3,
+      "title": "SİMA - yeni nəsil elektron imza üzrə texniki işlər yekunlaşmaqdadır.",
+      "text": "Rəqəmsal transformasiya fonunda yaradılan yeni imza vasitəsilə bank, BOKT, sığorta, ...",
+      "cardImg": "https://i.ibb.co/CJFP5PV/img3.png"
+    },
+    {
+      "item_id": 4,
+      "title": "SİMA - yeni nəsil elektron imza üzrə texniki işlər yekunlaşmaqdadır.",
+      "text": "Rəqəmsal transformasiya fonunda yaradılan yeni imza vasitəsilə bank, BOKT, sığorta, ...",
+      "cardImg": "https://i.ibb.co/CJFP5PV/img3.png"
+    },
+    {
+      "item_id": 5,
+      "title": "SİMA tətbiqi banklara təqdim olundu.",
+      "text": "Azərbaycan Banklar Assosasiyası ilə birgə təşkil olunan təqdimat görüşündə ölkənin 20-ə yaxın aparıcı bankının təmsilçiləri iştirak edib.",
+      "cardImg": "https://i.ibb.co/NKP22Vr/img2.png"
+    }
+  ]
+}
+
+
+
