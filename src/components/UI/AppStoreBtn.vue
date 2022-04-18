@@ -1,13 +1,35 @@
 <template>
-    <button>
+    <button
+        @click="click"
+        :class="appBtn"
+    >
         <img src="@/assets/images/button_images/AppStore.png">
-        <slot>App Store</slot>
+        <slot></slot>
     </button>
 </template>
 
 <script>
 export default {
-    name: 'app-store-btn'
+  name: 'app-store-btn',
+  props: {
+      disabled: {
+      type: Boolean,
+      default: false
+      }
+  },
+  data: () => ({}),
+  methods: {
+      click() {
+        this.$emit('click')
+      }
+  },
+  computed: {
+      appBtn() {
+        return {
+          'btn_disabled': this.disabled
+        }
+      }
+  }
 }
 </script>
 

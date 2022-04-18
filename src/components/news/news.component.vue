@@ -16,7 +16,6 @@
 					<swiper class="cards_list" 
 					:space-between="60" 
 					:breakpoints ="breakpoints"
-					:modules="modules"
 					:navigation="{ clickable: true }" >
 
 						 <!-- Item of card list  -->

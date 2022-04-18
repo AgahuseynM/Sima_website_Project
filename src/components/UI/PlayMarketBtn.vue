@@ -1,7 +1,7 @@
 <template>
     <button>
         <img src="@/assets/images/button_images/PlayMarket.png">
-        <slot>Play Market</slot>
+        <slot></slot>
     </button>
 </template>
 

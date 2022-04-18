@@ -10,8 +10,8 @@
 
 					<!-- play market, app store buttons -->
 					<div class="buttons">					    
-					    <app-store-btn class="play_market_btn"></app-store-btn>
-					    <play-market-btn class="app_store_btn"></play-market-btn>
+					    <app-store-btn class="play_market_btn">App Store</app-store-btn>
+					    <play-market-btn class="app_store_btn">Play Market</play-market-btn>
 					</div>	
 				</div>	
 			</div>
