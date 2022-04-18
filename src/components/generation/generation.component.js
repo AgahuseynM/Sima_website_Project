@@ -1,5 +1,3 @@
-import AppStoreBtn from "@/components/UI/AppStoreBtn";
-import PlayMarketBtn from "@/components/UI/PlayMarketBtn";
 export default {
 	name: 'generation',
 		data: () => ({
@@ -12,9 +10,5 @@ export default {
 		clickBtn() {
 			console.log('button clicked')
 		}
-	},
-	components: {
-	AppStoreBtn,
-	PlayMarketBtn
 	}
 }
