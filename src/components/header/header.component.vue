@@ -32,9 +32,11 @@
 
 					<!-- Magnifying glass -->
 					<li class="list_item">
-						<a class="magnifying_glass_link" href="#">
+						<a class="magnifying_glass_link" href="#" @click="showSearchInput">
 							<img class="magnifying_glass_link_img" :src="magnifyingGlass">
 						</a>
+
+            <input class="search" type="text" placeholder="Axtarış" v-if="searchInputVisibility">
 					</li>
 				</ul>
 

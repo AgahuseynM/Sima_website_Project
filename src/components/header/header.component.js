@@ -11,7 +11,10 @@ export default {
         mainMenu: [],
 
         /*For mobile menu visibility*/
-        mobileMenuVisibility: false
+        mobileMenuVisibility: false,
+
+        /*Visibility of search input*/
+        searchInputVisibility: false
     }),
 
     async created() {
@@ -25,6 +28,9 @@ export default {
     methods: {
         showMobileMenu() {
             this.mobileMenuVisibility = !this.mobileMenuVisibility
+        },
+        showSearchInput() {
+            this.searchInputVisibility = !this.searchInputVisibility
         }
     }
 }

@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import home from '@/pages/home'
-import download from "@/pages/download";
-import services from "@/pages/services";
-import partners from "@/pages/partners";
-import news from "@/pages/news";
-import faq from "@/pages/faq";
+import home from '@/pages/home.component'
+import download from "@/pages/download.component";
+import services from "@/pages/services.component";
+import partners from "@/pages/partners.component";
+import news from "@/pages/news.component";
+import faq from "@/pages/faq.component";
 
 const routes = [
     {

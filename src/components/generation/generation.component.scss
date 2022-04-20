@@ -48,9 +48,9 @@
 /*Global properties of new generation block*/
 
 .new_generation_main_block {
-    max-width: 1600px;
-    height: 742px;
-    margin-bottom: 10px;
+    max-width: 100rem;
+    height: 46.375rem;
+    margin-bottom: 0.625rem;
     padding: 0;
 
     .swiper-slide {
@@ -68,40 +68,40 @@
                 /* Electron signature info - title, text, button*/
 
                 .electron_signature_info_block {
-                    width: 568px;
-                    height: 345px;
+                    width: 35.5rem;
+                    height: 21.563rem;
 
                     position: absolute;
-                    top: 173px;
-                    left: 216px;
+                    top: 10.813rem;
+                    left: 13.5rem;
 
                     .signature_title {
                         width: 90%;
-                        height: 152px;
+                        height: 9.5rem;
 
-                        font: 64px Roboto-Bold;
+                        font: 4rem Roboto-Bold;
                         color: $color1;
-                        line-height: 76px;
+                        line-height: 4.75rem;
                         letter-spacing: 0.006em;
                     }
 
                     .signature_text {
-                        margin-top: 32px;
+                        margin-top: 2rem;
                         width: 103%;
-                        height: 72px;
+                        height: 4.5rem;
 
-                        font: 15px Roboto-Regular;
+                        font: 0.938rem Roboto-Regular;
                         color: $color4;
-                        line-height: 24px;
+                        line-height: 1.5rem;
                         letter-spacing: 0.003em;
                     }
 
                     /*Signature buttons*/
 
                     .signature_buttons {
-                        margin-top: 40px;
-                        width: 298px;
-                        height: 48px;
+                        margin-top: 2.5rem;
+                        width: 18.625rem;
+                        height: 3rem;
 
                         display: flex;
                         justify-content: space-between;
@@ -109,40 +109,13 @@
                         .app_store_btn,
                         .play_market_btn {
                             background-color: $color6;
-                            box-shadow: 0px 4px 18px rgba(0, 176, 78, 0.28);
+                            box-shadow: 0 0.25rem 1.125rem rgba(0, 176, 78, 0.28);
                             transition: 0.4s;
 
                             &:hover {
                                 background-color: $color1;
                             }
                         }
-                    }
-                }
-
-                /*Slide buttons*/
-
-                .slide_btns_block {
-                    width: 100px;
-                    min-height: 56px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-
-                    position: absolute;
-                    bottom: 0;
-                    left: 120%;
-                    transform: translate(-50%, 0%);
-
-                    .slide_btn {
-                        width: 18px;
-                        height: 4px;
-                        border-radius: 9px;
-                        cursor: pointer;
-                        background: rgba(71, 73, 117, 0.3);
-                    }
-
-                    #active_btn {
-                        background-color: $color1;
                     }
                 }
             }
@@ -155,7 +128,7 @@
 
                 .generation_image {
                     width: 100%;
-                    height: 742px;
+                    height: 46.375rem;
                     background: 50% no-repeat;
                 }
             }
@@ -209,7 +182,7 @@
             .new_generation_image_block {
 
                 .generation_image {
-                    background: 0% no-repeat;
+                    background: 0 no-repeat;
                 }
             }
         }
@@ -234,26 +207,13 @@
 
                     .signature_title {
                         width: 70%;
-                        font-size: 60px;
+                        font-size: 3.75rem;
                     }
 
                     .signature_text {
                         width: 72%;
                         height: auto;
                     }
-                }
-
-                /*Slide buttons*/
-
-                .slide_btns_block {
-                    width: 85px;
-
-                    .slide_btn {
-                        width: 14px;
-                        height: 2px;
-                    }
-
-                    left: 150%
                 }
             }
 
@@ -272,10 +232,10 @@
     /*Global properties of new generation block*/
 
     .new_generation_main_block {
-        height: 1000px;
+        height: 62.5rem;
 
         .new_generation_internal_block {
-            height: 1000px;
+            height: 62.5rem;
 
             .electronic_signature_main_block {
                 height: 45%;
@@ -292,13 +252,13 @@
                     .signature_title {
                         margin: 0 auto;
                         width: 70%;
-                        font-size: 55px;
+                        font-size: 3.438rem;
                         text-align: center;
                     }
 
                     .signature_text {
                         margin: 0 auto;
-                        margin-top: 32px;
+                        margin-top: 2rem;
                         text-align: center;
                         width: 72%;
                         height: auto;
@@ -306,7 +266,7 @@
 
                     .signature_buttons {
                         margin: 0 auto;
-                        margin-top: 40px;
+                        margin-top: 2.5rem;
                     }
                 }
             }
@@ -329,10 +289,10 @@
     /*Global properties of new generation block*/
 
     .new_generation_main_block {
-        height: 1200px;
+        height: 75rem;
 
         .new_generation_internal_block {
-            height: 1200px;
+            height: 75rem;
             background-color: $color7;
 
             .electronic_signature_main_block {
@@ -351,13 +311,13 @@
                     .signature_title {
                         width: 100%;
                         height: auto;
-                        font-size: 50px;
+                        font-size: 3.125rem;
                         text-align: center;
                     }
 
                     .signature_text {
                         margin: 0 auto;
-                        margin-top: 32px;
+                        margin-top: 2rem;
                         text-align: center;
                         width: 98%;
                         height: auto;
@@ -365,11 +325,11 @@
 
                     .signature_buttons {
                         margin: 0 auto;
-                        margin-top: 40px;
+                        margin-top: 2.5rem;
 
                         .app_store_btn,
                         .play_market_btn {
-                            width: 132px;
+                            width: 8.25rem;
                         }
                     }
                 }

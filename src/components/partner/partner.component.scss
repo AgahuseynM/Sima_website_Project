@@ -42,17 +42,17 @@
 /*Global properties of block Be A Partner*/
 
 .be_partner_main_block {
-    height: 491px;
+    height: 30.688rem;
 
     .be_partner_internal_block {
-        height: 491px;
+        height: 30.688rem;
 
         .title_text_list {
             position: relative;
 
             .be_partner {
-                width: 1168px;
-                height: 340px;
+                width: 73rem;
+                height: 21.25rem;
 
                 position: absolute;
                 top: 50%;
@@ -60,24 +60,24 @@
                 transform: translate(-50%, -50%);
 
                 &_title {
-                    width: 832px;
+                    width: 52rem;
                     margin: 0 auto;
-                    margin-bottom: 32px;
+                    margin-bottom: 2rem;
 
-                    font: 28px Roboto-Bold;
-                    line-height: 36px;
+                    font: 1.75rem Roboto-Bold;
+                    line-height: 2.25rem;
                     text-align: center;
                     letter-spacing: 0.0004em;
                     color: $color1;
                 }
 
                 &_text {
-                    width: 532px;
+                    width: 33.25rem;
                     margin: 0 auto;
-                    margin-bottom: 20px;
+                    margin-bottom: 1.25rem;
 
-                    font: 15px Roboto-Regular;
-                    line-height: 24px;
+                    font: 0.938rem Roboto-Regular;
+                    line-height: 1.5rem;
                     text-align: center;
                     letter-spacing: 0.0003em;
                     color: $color4;
@@ -98,18 +98,18 @@
                     &_item {
 
                         .icon {
-                            width: 268px;
-                            height: 140px;
-                            margin-bottom: 12px;
+                            width: 16.75rem;
+                            height: 8.75rem;
+                            margin-bottom: 0.75rem;
                             background: no-repeat center;
                         }
 
                         .titles {
-                            font: 18px Roboto-Regular;
-                            line-height: 26px;
+                            font: 1.125rem Roboto-Bold;
+                            line-height: 1.625rem;
                             text-align: center;
                             letter-spacing: 0.0003em;
-                            color: $color4;
+                            color: $color1;
                         }
                     }
                 }
@@ -125,28 +125,26 @@
     /*Global properties of block Be A Partner*/
 
     .be_partner_main_block {
-        height: 491px;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         .be_partner_internal_block {
-            height: 491px;
 
             .title_text_list {
 
                 .be_partner {
                     width: 90%;
-                    height: 400px;
+                    height: 25rem;
 
                     &_title {
                         width: 70%;
                         margin: 0 auto;
-                        margin-bottom: 32px;
+                        margin-bottom: 2rem;
                     }
 
                     &_text {
                         width: 50%;
                         margin: 0 auto;
-                        margin-bottom: 50px;
+                        margin-bottom: 3.125rem;
                     }
 
                     /*Partner icon and title list*/
@@ -156,13 +154,13 @@
                         &_item {
 
                             .icon {
-                                width: 200px;
-                                height: 140px;
-                                margin-bottom: 12px;
+                                width: 12.5rem;
+                                height: 8.75rem;
+                                margin-bottom: 0.75rem;
                             }
 
                             .titles {
-                                width: 200px;
+                                width: 12.5rem;
                                 height: auto;
                             }
                         }
@@ -178,29 +176,27 @@
     /*Global properties of block Be A Partner*/
 
     .be_partner_main_block {
-        height: 491px;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         .be_partner_internal_block {
-            height: 491px;
 
             .title_text_list {
 
                 .be_partner {
                     width: 90%;
-                    height: 450px;
+                    height: 28.125rem;
                     position: relative;
 
                     &_title {
                         width: 70%;
                         margin: 0 auto;
-                        margin-bottom: 32px;
+                        margin-bottom: 2rem;
                     }
 
                     &_text {
                         width: 50%;
                         margin: 0 auto;
-                        margin-bottom: 20px;
+                        margin-bottom: 1.25rem;
                     }
 
                     /*Partner icon and title list*/
@@ -216,12 +212,12 @@
 
                             .icon {
                                 width: 100%;
-                                height: 140px;
-                                margin-bottom: 12px;
+                                height: 8.75rem;
+                                margin-bottom: 0.75rem;
                             }
 
                             .titles {
-                                width: 150px;
+                                width: 9.375rem;
                                 height: auto;
                             }
                         }
@@ -237,36 +233,36 @@
     /*Global properties of block Be A Partner*/
 
     .be_partner_main_block {
-        height: 880px;
-        margin-bottom: 30px;
+        height: 55rem;
+        margin-bottom: 1.875rem;
 
         .be_partner_internal_block {
-            height: 880px;
+            height: 55rem;
 
             .title_text_list {
 
                 .be_partner {
                     width: 90%;
-                    height: 850px;
+                    height: 53.125rem;
                     position: relative;
 
                     &_title {
                         width: 70%;
                         margin: 0 auto;
-                        margin-bottom: 17px;
+                        margin-bottom: 1.063rem;
                     }
 
                     &_text {
                         width: 80%;
                         margin: 0 auto;
-                        margin-bottom: 20px;
+                        margin-bottom: 1.25rem;
                     }
 
                     /*Partner icon and title list*/
 
                     &_list {
                         width: 95%;
-                        height: 640px;
+                        height: 40rem;
                         flex-direction: column;
 
                         position: absolute;
@@ -278,16 +274,16 @@
 
                             .icon {
                                 width: 40%;
-                                height: 100px;
+                                height: 6.25rem;
                                 margin: 0 auto;
-                                margin-bottom: 12px;
+                                margin-bottom: 0.75rem;
                             }
 
                             .titles {
                                 width: 40%;
                                 height: auto;
                                 margin: 0 auto;
-                                margin-bottom: 10px;
+                                margin-bottom: 0.625rem;
                             }
                         }
                     }
@@ -302,36 +298,36 @@
     /*Global properties of block Be A Partner*/
 
     .be_partner_main_block {
-        height: 980px;
-        margin-bottom: 30px;
+        height: 61.25rem;
+        margin-bottom: 1.875rem;
 
         .be_partner_internal_block {
-            height: 980px;
+            height: 61.25rem;
 
             .title_text_list {
 
                 .be_partner {
                     width: 90%;
-                    height: 920px;
+                    height: 57.5rem;
                     position: relative;
 
                     &_title {
                         width: 100%;
                         margin: 0 auto;
-                        margin-bottom: 17px;
+                        margin-bottom: 1.063rem;
                     }
 
                     &_text {
                         width: 100%;
                         margin: 0 auto;
-                        margin-bottom: 20px;
+                        margin-bottom: 1.25rem;
                     }
 
                     /*Partner icon and title list*/
 
                     &_list {
                         width: 95%;
-                        height: 670px;
+                        height: 41.875rem;
                         flex-direction: column;
 
                         position: absolute;
@@ -343,16 +339,16 @@
 
                             .icon {
                                 width: 40%;
-                                height: 100px;
+                                height: 6.25rem;
                                 margin: 0 auto;
-                                margin-bottom: 12px;
+                                margin-bottom: 0.75rem;
                             }
 
                             .titles {
                                 width: 50%;
                                 height: auto;
                                 margin: 0 auto;
-                                margin-bottom: 10px;
+                                margin-bottom: 0.625rem;
                             }
                         }
                     }

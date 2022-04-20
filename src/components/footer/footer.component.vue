@@ -1,7 +1,7 @@
 <template>
 	<!-- Footer main block -->
 	<div class="container-fluid footer_main_block">
-		<div class="row footer_intenal_block">
+		<div class="row footer_internal_block">
 
 			<!-- Logo, play market, app store buttons -->
 			<div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 footer_logo_buttons">
@@ -35,10 +35,10 @@
 
 			<!-- Language button of site -->
 			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 footer_language">
-				<button class="lang_button">
+				<div  class="lang_button">
 					<div class="lang_icon"></div>
 					<div class="button_message">Azərbaycanca</div>
-				</button>	
+				</div>
 			</div>
 
 			<!-- End of Footer -->

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>FAQ</h1>
+    <h1>Tərəfdaşlar</h1>
   </div>
 </template>
 
 <script>
 export default {
-
+  name: 'partners'
 }
 </script>
 

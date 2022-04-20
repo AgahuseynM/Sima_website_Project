@@ -1,13 +1,13 @@
 <template>
 
 	<!-- Compaigns and News main block -->
-	<div class="container-fluid compaigns_news_main_block">
-		<div class="row compaigns_news_internal_block">
-			<div class="col-xl-12 compaigns_news">
+	<div class="container-fluid companies_news_main_block">
+		<div class="row companies_news_internal_block">
+			<div class="col-xl-12 companies_news">
 
 				<!-- Compaign and News cards block -->
-				<div class="compaigns_news_cards">
-					<div class="compaigns_news_cards_title">
+				<div class="companies_news_cards">
+					<div class="companies_news_cards_title">
 						Kampaniyalar və xəbərlər
 					</div>
 

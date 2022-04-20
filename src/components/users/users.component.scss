@@ -63,23 +63,23 @@
 /*Global properties of block Partners and Users*/
 
 .partners_users_main_block {
-    height: 613px;
+    height: 38.313rem;
 
     .partners_users_internal_block {
-        height: 613px;
+        height: 38.313rem;
         margin: 0;
 
 
         /*Partners list*/
 
         .partners_main_block {
-            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+            box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
             background: $color8;
             position: relative;
 
             .partners {
-                width: 420px;
-                height: 416.12px;
+                width: 26.25rem;
+                height: 26.008rem;
 
                 position: absolute;
                 top: 50%;
@@ -87,33 +87,33 @@
                 transform: translate(-50%, -50%);
 
                 &_title {
-                    width: 380px;
-                    height: 100px;
-                    margin-bottom: 45px;
+                    width: 23.75rem;
+                    height: 6.25rem;
+                    margin-bottom: 2.813rem;
 
-                    font: 40px Roboto-Bold;
-                    line-height: 50px;
+                    font: 2.5rem Roboto-Bold;
+                    line-height: 3.125rem;
                     letter-spacing: 0.005em;
                     color: $color1;
                 }
 
                 &_list {
-                    margin-bottom: 32px;
+                    margin-bottom: 2rem;
                     display: flex;
 
 
                     .icon {
                         background: no-repeat center;
-                        width: 43px;
-                        height: 43px;
-                        margin-right: 28px;
+                        width: 2.688rem;
+                        height: 2.688rem;
+                        margin-right: 1.75rem;
                     }
 
                     .text {
-                        margin-top: 9px;
-                        height: 26px;
-                        font: 18px Roboto-Regular;
-                        line-height: 26px;
+                        margin-top: 0.563rem;
+                        height: 1.625rem;
+                        font: 1.125rem Roboto-Regular;
+                        line-height: 1.625rem;
                         letter-spacing: 0.0003em;
                         color: $color4;
                     }
@@ -124,13 +124,13 @@
         /*Users list*/
 
         .users_main_block {
-            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+            box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
             background: $color9;
             position: relative;
 
             .users {
-                width: 410px;
-                height: 416.12px;
+                width: 25.625rem;
+                height: 26.008rem;
 
                 position: absolute;
                 top: 50%;
@@ -138,32 +138,32 @@
                 transform: translate(-50%, -50%);
 
                 &_title {
-                    width: 380px;
-                    height: 100px;
-                    margin-bottom: 45px;
+                    width: 23.75rem;
+                    height: 6.25rem;
+                    margin-bottom: 2.813rem;
 
-                    font: 40px Roboto-Bold;
-                    line-height: 50px;
+                    font: 2.5rem Roboto-Bold;
+                    line-height: 3.125rem;
                     letter-spacing: 0.005em;
                     color: $color1;
                 }
 
                 &_list {
-                    margin-bottom: 32px;
+                    margin-bottom: 2rem;
                     display: flex;
 
                     .icon {
                         background: no-repeat center;
-                        width: 43px;
-                        height: 43px;
-                        margin-right: 28px;
+                        width: 2.688rem;
+                        height: 2.688rem;
+                        margin-right: 1.75rem;
                     }
 
                     .text {
-                        margin-top: 9px;
-                        height: 26px;
-                        font: 18px Roboto-Regular;
-                        line-height: 26px;
+                        margin-top: 0.563rem;
+                        height: 1.625rem;
+                        font: 1.125rem Roboto-Regular;
+                        line-height: 1.625rem;
                         letter-spacing: 0.0003em;
                         color: $color4;
                     }
@@ -210,7 +210,7 @@
                     &_list {
 
                         .icon {
-                            margin-left: 20px;
+                            margin-left: 1.25rem;
                         }
                     }
                 }
@@ -239,17 +239,17 @@
                     &_title {
                         width: 100%;
                         height: auto;
-                        font-size: 38px;
+                        font-size: 2.375rem;
                     }
 
                     &_list {
                         .icon {
-                            margin-right: 15px;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
                             height: auto;
-                            font-size: 15px;
+                            font-size: 1.200rem;
                         }
                     }
                 }
@@ -267,18 +267,18 @@
                     &_title {
                         width: 100%;
                         height: auto;
-                        font-size: 38px;
+                        font-size: 2.375rem;
                     }
 
                     &_list {
 
                         .icon {
-                            margin-left: 20px;
-                            margin-right: 15px;
+                            margin-left: 1.25rem;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
-                            font-size: 15px;
+                            font-size: 1.200rem;
                             height: auto;
                         }
                     }
@@ -293,10 +293,10 @@
     /*Global properties of block Partners and Users*/
 
     .partners_users_main_block {
-        height: 1000px;
+        height: 62.5rem;
 
         .partners_users_internal_block {
-            height: 1000px;
+            height: 62.5rem;
             /*Partners list*/
 
             .partners_main_block {
@@ -309,20 +309,20 @@
                     &_title {
                         width: 100%;
                         height: auto;
-                        margin-bottom: 30px;
-                        font-size: 38px;
+                        margin-bottom: 1.875rem;
+                        font-size: 2.375rem;
                         text-align: center;
                     }
 
                     &_list {
 
                         .icon {
-                            margin-right: 15px;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
                             height: auto;
-                            font-size: 16px;
+                            font-size: 1.200rem;
                             text-align: center;
                         }
                     }
@@ -342,18 +342,18 @@
                         width: 100%;
                         height: auto;
                         text-align: center;
-                        margin-bottom: 30px;
-                        font-size: 38px;
+                        margin-bottom: 1.875rem;
+                        font-size: 2.375rem;
                     }
 
                     &_list {
 
                         .icon {
-                            margin-right: 15px;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
-                            font-size: 16px;
+                            font-size: 1.200rem;
                             height: auto;
                             text-align: center;
                         }
@@ -369,10 +369,11 @@
     /*Global properties of block Partners and Users*/
 
     .partners_users_main_block {
-        height: 1100px;
+        height: 68.75rem;
 
         .partners_users_internal_block {
-            height: 1100px;
+            height: 68.75rem;
+
             /*Partners list*/
 
             .partners_main_block {
@@ -385,19 +386,19 @@
                     &_title {
                         width: 100%;
                         height: auto;
-                        margin-bottom: 30px;
-                        font-size: 39px;
+                        margin-bottom: 1.875rem;
+                        font-size: 2.438rem;
                     }
 
                     &_list {
                         .icon {
-                            width: 60px;
-                            margin-right: 15px;
+                            width: 3.75rem;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
                             height: auto;
-                            font-size: 17px;
+                            font-size: 1.100rem;
                             text-align: center;
                         }
                     }
@@ -416,18 +417,18 @@
                     &_title {
                         width: 100%;
                         height: auto;
-                        margin-bottom: 30px;
-                        font-size: 38px;
+                        margin-bottom: 1.875rem;
+                        font-size: 2.375rem;
                     }
 
                     &_list {
 
                         .icon {
-                            margin-right: 15px;
+                            margin-right: 0.938rem;
                         }
 
                         .text {
-                            font-size: 17px;
+                            font-size: 1.100rem;
                             height: auto;
                         }
                     }
