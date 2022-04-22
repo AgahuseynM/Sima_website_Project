@@ -10,8 +10,8 @@
 
 					<!-- play market, app store buttons -->
 					<div class="buttons">
-            <download-btn class="app_store_btn" icon="apple" >App Store</download-btn>
-            <download-btn  class="app_store_btn" icon="play_arrow" >Play Market</download-btn>
+            <download-btn class="download_btn" icon="apple" >App Store</download-btn>
+            <download-btn  class="download_btn" icon="play_arrow" >Play Market</download-btn>
 					</div>	
 				</div>	
 			</div>
