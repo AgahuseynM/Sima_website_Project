@@ -1,9 +1,7 @@
-import AppStoreBtn from '@/components/UI/AppStoreBtn';
-import PlayMarketBtn from '@/components/UI/PlayMarketBtn';
+import DownloadBtn from '@/components/UI/downloadBtn.component.vue';
 import SimaLogo from '@/components/UI/SimaLogo';
 
 export default [
-    AppStoreBtn,
-    PlayMarketBtn,
+    DownloadBtn,
     SimaLogo
 ]

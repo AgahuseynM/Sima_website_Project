@@ -9,9 +9,9 @@
 					<sima-logo></sima-logo>
 
 					<!-- play market, app store buttons -->
-					<div class="buttons">					    
-					    <app-store-btn class="play_market_btn">App Store</app-store-btn>
-					    <play-market-btn class="app_store_btn">Play Market</play-market-btn>
+					<div class="buttons">
+            <download-btn class="app_store_btn" icon="apple" >App Store</download-btn>
+            <download-btn  class="app_store_btn" icon="play_arrow" >Play Market</download-btn>
 					</div>	
 				</div>	
 			</div>
@@ -52,5 +52,10 @@
 	</div>
 </template>
 
-<script src="./footer.component.js"></script>
+<script src="./footer.component.js">
+import DownloadBtn from "@/components/UI/downloadBtn.component";
+export default {
+  components: {DownloadBtn}
+}
+</script>
 <style lang="scss" scoped src="./footer.component.scss"></style>

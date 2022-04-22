@@ -5,7 +5,7 @@
         :slides-per-view="1"
         :pagination="{clickable: true}"
     >
-		<swiper-slide class="row new_generation_internal_block" v-for="(element, index) in generalInfoArr" :key="index">
+		<swiper-slide class="row new_generation_internal_block" v-for="(element, index) in generalInfoArray" :key="index">
 
 			<div class="col-sm-12 col-md-4 col-lg-5 col-xl-5 electronic_signature_main_block">
 
@@ -22,8 +22,11 @@
 
 					<!-- Buttons of Electron signature info -->
 					<div class="signature_buttons">
-						<app-store-btn  class="app_store_btn" @click="clickBtn" :disabled="false">App Store</app-store-btn>
-						<play-market-btn  class="play_market_btn">Play Market</play-market-btn>
+						<download-btn v-if="element.id === 1" class="app_store_btn" icon="apple" >App Store</download-btn>
+						<download-btn v-if="element.id === 1" class="app_store_btn" icon="play_arrow" >Play Market</download-btn>
+
+            <download-btn v-if="element.id === 2" class="app_store_btn" >Ətraflı</download-btn>
+            <download-btn v-if="element.id === 2" class="app_store_btn" >SİMA-nı yüklə</download-btn>
 					</div>
 				</div>
 			</div>
@@ -39,6 +42,11 @@
 
 
 <script src="./generation.component.js">
+import Download from "@/pages/download.component";
+import DownloadBtn from "@/components/UI/downloadBtn.component";
+export default {
+  components: {DownloadBtn, Download}
+}
 </script>
 
 <style lang="scss" scoped src="./generation.component.scss">
