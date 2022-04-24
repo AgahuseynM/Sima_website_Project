@@ -11,7 +11,7 @@
 					<!-- play market, app store buttons -->
 					<div class="buttons">
             <download-btn class="download_btn" icon="apple" >App Store</download-btn>
-            <download-btn  class="download_btn" icon="play_arrow" >Play Market</download-btn>
+            <download-btn  class="download_btn" icon="play_arrow">Play Market</download-btn>
 					</div>	
 				</div>	
 			</div>
@@ -35,10 +35,13 @@
 
 			<!-- Language button of site -->
 			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 footer_language">
-				<div  class="lang_button">
-					<div class="lang_icon"></div>
-					<div class="button_message">Azərbaycanca</div>
-				</div>
+				<select class="lang_button">
+					<option class="button_message">
+            <div class="lang_icon"></div>
+            Azərbaycan</option>
+          <option class="button_message">English</option>
+          <option class="button_message">Русский</option>
+				</select>
 			</div>
 
 			<!-- End of Footer -->

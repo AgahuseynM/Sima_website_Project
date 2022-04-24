@@ -1,9 +1,8 @@
 <template>
   <button class="app_btn">
-    <i class="material-icons"
-       v-if="icon"
-    >
-      {{icon}}</i>
+
+<!--    <img :src="require(`@/assets/images/button_images/${{icon}}`)" alt="">-->
+    <i class="material-icons">{{icon}}</i>
     <span>
       <slot></slot>
     </span>

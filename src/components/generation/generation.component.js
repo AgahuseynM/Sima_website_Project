@@ -1,5 +1,9 @@
+import DownloadBtn from "@/components/UI/downloadBtn.component";
 export default {
     name: 'generation',
+    components: {
+      DownloadBtn
+    },
     data: () => ({
         generalInfoArray: [
             {
